@@ -22,7 +22,7 @@ git rebase "$branch"
 rebase_status=$?
 
 if [[ $rebase_status -ne 0 ]]; then
-  read -p "Please resolve your conflicts. Press Enter to continue or q to abort process: " choice
+  read -r -p "Please resolve your conflicts. Press Enter to continue or q to abort process: " choice
 
   case "$choice" in
   "") # Enter key
