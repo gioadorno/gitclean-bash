@@ -39,6 +39,6 @@ Initiate dashboard feature
 ```
 or
 ```
-./clean.sh dashboard-feature
+./clean.sh dashboard-feature-branch
 ```
 Will perform both the Rebase and Reset
