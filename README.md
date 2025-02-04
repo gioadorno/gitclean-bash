@@ -35,7 +35,7 @@ Initiate dashboard feature
 ```
 ## Clean
 ```
-./clean.sh clean
+./clean.sh
 ```
 or
 ```
