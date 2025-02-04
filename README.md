@@ -1,4 +1,4 @@
-# GitClean
+# GitClean-Bash
 
 An easy to use script for rebasing and cleaning up branches
 
