@@ -5,7 +5,7 @@ An easy to use script for rebasing and cleaning up branches
 ### Scripts
 - ./clean.sh (Rebase and Reset)
 - ./rebase.sh (Fetches the input branch (or default origin/master), rebases with HEAD, force push to HEAD)
-- ./reset.sh (Soft reset to target branch latest commit)
+- ./reset.sh (Soft reset to parent's branch latest commit)
 
 
 ## Rebase
