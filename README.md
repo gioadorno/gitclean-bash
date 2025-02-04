@@ -17,7 +17,7 @@ This will fetch the requested branch (default is origin/master) to retrieve the 
 ```
 or
 ```
-./rebase.sh dashboard-feature
+./rebase.sh dashboard-feature-branch
 ```
 
 ## Reset
