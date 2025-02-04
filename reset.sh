@@ -37,7 +37,6 @@ if [[ "$1" == "--no-push" ]]; then
 else
   echo "Pushing changes..."
   git push --force-with-lease origin HEAD
-  git push --force-with-lease origin HEAD
   if [[ $? -ne 0 ]]; then
     echo "Push failed."
     exit 1
