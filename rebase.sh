@@ -3,7 +3,7 @@
 branch="${1:-origin/master}"
 
 # 1. Fetch
-git fetch origin "$branch"
+git fetch "$branch"
 
 # 2. Check for changes
 log_output=$(git log HEAD.."$branch")
