@@ -1,6 +1,6 @@
 #!/bin/bash
 
-branch="${1:-origin/master}"
+branch="${1:-master}"
 
 # 1. Fetch
 git fetch "$branch"
