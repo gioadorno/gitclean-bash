@@ -1,6 +1,6 @@
 # GitClean-Bash
 
-An easy to use script for rebasing and cleaning up branches. You can either use Reset or Rebase separetely or a combination of both with Clean.
+An easy to use script for rebasing and cleaning up branches. You can either use Reset or Rebase separetely or a combination of both with Clean. Note: There is an automatic push that happens after the script runs, at least for now
 
 ### Scripts
 - clean.sh (Rebase and Reset)
