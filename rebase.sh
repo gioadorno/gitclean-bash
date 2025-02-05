@@ -14,7 +14,6 @@ if [[ -z "$log_output" ]]; then
 fi
 
 echo "Changes found on $branch"
-echo "$log_output"
 
 # 3. Perform rebase
 echo "Starting rebase onto $branch"
