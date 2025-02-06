@@ -40,7 +40,7 @@ gitclean clean
 ```
 or
 ```
-gitclean clean
+gitclean clean dashboard-feature-branch
 ```
 Will perform both the Rebase and Reset function
 ##
