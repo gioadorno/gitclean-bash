@@ -14,7 +14,7 @@ This will fetch the requested branch (default is origin/master) to retrieve the 
 
 ##### Example
 ```
-gitclean.sh rebase
+gitclean rebase
 ```
 or
 ```
