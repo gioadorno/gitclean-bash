@@ -65,7 +65,7 @@ rebase() {
   # 4. Force Push
   echo "Force pushing changes..."
   git push --force-with-lease origin HEAD
-  echo "Rebase complete"
+
 }
 
 # Reset Command
