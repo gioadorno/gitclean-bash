@@ -132,7 +132,7 @@ reset)
   reset
   ;;
 *)
-  echo "Invalid subcommand: $1"
+  echo "Invalid command: $1"
   exit 1
   ;;
 esac
