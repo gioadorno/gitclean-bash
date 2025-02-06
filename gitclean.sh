@@ -12,7 +12,7 @@ clean() {
   fi
 
   # Rebase (call the rebase function)
-  rebase "$branch" # No need for./rebase.sh here
+  rebase "$branch"
   if [[ $? -ne 0 ]]; then
     echo "There was an error attempting to rebase."
     exit 1
