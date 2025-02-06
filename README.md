@@ -3,21 +3,22 @@
 An easy to use script for rebasing and cleaning up branches. You can either use Reset or Rebase separetely or a combination of both with Clean.
 
 ### Scripts
-- clean.sh (Rebase and Reset)
-- rebase.sh (Fetches the input branch (or default master), rebases with HEAD, force push to HEAD)
-- reset.sh (Soft reset to parent's branch latest commit)
-
+- gitclean.sh <command> [branch_name - optional]
+  ## Commands
+  - clean
+  - rebase
+  - reset
 
 ## Rebase
 This will fetch the requested branch (default is origin/master) to retrieve the updated changes. Then it will log if there are changes/conflicts. If there are no changes the script will exit, since there is no rebase to be had. Otherwise it will continue to perform a rebase. If there are conflicts, you will have to manually resolve those. You will be prompted press Enter to continue if all conflicts are resolved or press q to abort the process. The code will then be force pushed to the HEAD.
 
 ##### Example
 ```
-./rebase.sh
+gitclean.sh rebase
 ```
 or
 ```
-./rebase.sh dashboard-feature-branch
+gitclean rebase dashboard-feature-branch
 ```
 
 ## Reset
@@ -25,7 +26,7 @@ This will grab the latest commit hash of the parent branch and do a reset --soft
 
 ##### Example
 ```
-./reset.sh
+gitclean reset
 
 ### Enter a commit message:
 Initiate dashboard feature
@@ -35,11 +36,11 @@ Initiate dashboard feature
 ```
 ## Clean
 ```
-./clean.sh
+gitclean clean
 ```
 or
 ```
-./clean.sh dashboard-feature-branch
+gitclean clean
 ```
 Will perform both the Rebase and Reset function
 ##
