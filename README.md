@@ -3,7 +3,7 @@
 An easy to use script for rebasing and cleaning up branches. You can either use Reset or Rebase separetely or a combination of both with Clean.
 
 ### Scripts
-- gitclean.sh <command> [branch_name - optional]
+- gitclean.sh (command) [branch_name - optional]
   ## Commands
   - clean
   - rebase
