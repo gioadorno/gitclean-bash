@@ -72,7 +72,7 @@ rebase() {
 reset() {
   # 1. Find the parent's last commit
   echo "Fetching parent's last commit..."
-  first_commit=$(git rev-list --max-parents=0 HEAD)
+  first_commit=$(git rev-parse HEAD~1)
 
   # 2. Reset commits
   echo "Resetting commits..."
